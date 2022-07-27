@@ -13,6 +13,10 @@
 		4157BA1028911EFA00185214 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157B9FE28911EF600185214 /* ContentView.swift */; };
 		4157BA1128911EFA00185214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4157B9FF28911EFA00185214 /* Assets.xcassets */; };
 		4157BA1228911EFA00185214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4157B9FF28911EFA00185214 /* Assets.xcassets */; };
+		4157BA1C28911F2300185214 /* CachedAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157BA1B28911F2300185214 /* CachedAsyncImage.swift */; };
+		4157BA1D28911F2300185214 /* CachedAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157BA1B28911F2300185214 /* CachedAsyncImage.swift */; };
+		4157BA1F28911FF600185214 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157BA1E28911FF600185214 /* Popover.swift */; };
+		4157BA2028911FF600185214 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4157BA1E28911FF600185214 /* Popover.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,8 @@
 		4157BA0428911EFA00185214 /* TestImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4157BA0A28911EFA00185214 /* TestImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4157BA0C28911EFA00185214 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4157BA1B28911F2300185214 /* CachedAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
+		4157BA1E28911FF600185214 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,8 @@
 				4157B9FD28911EF600185214 /* TestImageApp.swift */,
 				4157B9FE28911EF600185214 /* ContentView.swift */,
 				4157B9FF28911EFA00185214 /* Assets.xcassets */,
+				4157BA1B28911F2300185214 /* CachedAsyncImage.swift */,
+				4157BA1E28911FF600185214 /* Popover.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -177,7 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4157BA0F28911EFA00185214 /* ContentView.swift in Sources */,
+				4157BA1C28911F2300185214 /* CachedAsyncImage.swift in Sources */,
 				4157BA0D28911EFA00185214 /* TestImageApp.swift in Sources */,
+				4157BA1F28911FF600185214 /* Popover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4157BA1028911EFA00185214 /* ContentView.swift in Sources */,
+				4157BA1D28911F2300185214 /* CachedAsyncImage.swift in Sources */,
 				4157BA0E28911EFA00185214 /* TestImageApp.swift in Sources */,
+				4157BA2028911FF600185214 /* Popover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showPopver = false
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button("Tap me") {
+            showPopver = true
+        }
+        .sheet(isPresented: $showPopver) {
+            Popover()
+        }
+            
+            
     }
 }
 
