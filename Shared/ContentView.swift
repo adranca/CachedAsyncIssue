@@ -7,17 +7,35 @@
 
 import SwiftUI
 
+enum Action: String, Identifiable {
+    var id: String {
+        return self.rawValue
+    }
+    case kingfisher
+    case asyncImage
+}
+
 struct ContentView: View {
+    @State var action: Action? = nil
     @State var showPopver = false
     var body: some View {
-        Button("Tap me") {
-            showPopver = true
-        }
-        .sheet(isPresented: $showPopver) {
-            Popover()
-        }
+        VStack {
+            Button("Kingfisher") {
+                action = .kingfisher
+            }
             
-            
+            Button("AsyncImage") {
+                action = .asyncImage
+            }
+        }
+        .sheet(item: $action) { action in
+            switch action {
+            case .kingfisher:
+                KingfisherPopover()
+            case .asyncImage:
+                Popover()
+            }
+        }
     }
 }
 
